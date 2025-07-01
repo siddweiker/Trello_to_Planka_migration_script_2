@@ -32,7 +32,7 @@
 
 ## 1. Самый простой способ - скачать готовую программу
 
-1. Перейдите в Release и скачайте .exe-файл (для Windows)
+1. Перейдите в Release и скачайте .exe-файл (для Windows): [Release v1.0](https://github.com/John-Gear/Trello_to_Planka_migration_script_2/releases/tag/v1.0)
 2. Запустите программу двойным щелчком
 3. Введите:
 - Planka URL (например: https://example.com, без приставки /api на конце)
