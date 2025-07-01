@@ -32,7 +32,7 @@ Below is an example of the application interface where you can enter data for mi
 
 ## 1. The easiest way – download the ready-to-use program
 
-1. Go to Release and download the .exe file (for Windows)
+1. Go to Release and download the .exe file (for Windows): [Release v1.0](https://github.com/John-Gear/Trello_to_Planka_migration_script_2/releases/tag/v1.0)
 2. Launch the program by double-clicking it
 3. Enter:
 - Planka URL (e.g., https://example.com, without the /api suffix)
