@@ -90,11 +90,11 @@ window.title("Trello to Planka Migrator")
 window.geometry("700x670")
 
 fields = [
-    ("Planka URL (without /api):", "https://planka.com"),
-    ("Planka Username:", ""),
-    ("Planka Password:", ""),
-    ("Trello API Key:", ""),
-    ("Trello API Token:", "")
+    ("Planka URL (without /api):", os.getenv("PLANKA_URL", "https://planka.com")),
+    ("Planka Username:", os.getenv("PLANKA_USERNAME", "")),
+    ("Planka Password:", os.getenv("PLANKA_PASSWORD", "")),
+    ("Trello API Key:", os.getenv("TRELLO_APIKEY", "")),
+    ("Trello API Token:", os.getenv("TRELLO_APITOKEN", ""))
 ]
 
 entries = []
